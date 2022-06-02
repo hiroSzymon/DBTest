@@ -1,6 +1,6 @@
 JarIndex-Version: 1.0
 
-MainDB.jar
+test.jar
 META-INF
 META-INF/maven
 META-INF/maven/com.hiroszymon
@@ -8,7 +8,7 @@ META-INF/maven/com.hiroszymon/DBTest
 com
 com/hiroszymon
 
-lib/postgresql-42.3.4.jar
+postgresql-42.3.4.jar
 META-INF
 META-INF/licenses
 META-INF/licenses/client-2.1.jar
@@ -67,7 +67,7 @@ org/postgresql/util/internal
 org/postgresql/xa
 org/postgresql/xml
 
-lib/checker-qual-3.5.0.jar
+checker-qual-3.5.0.jar
 META-INF
 org
 org/checkerframework

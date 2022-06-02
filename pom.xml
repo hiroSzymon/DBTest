@@ -23,7 +23,7 @@
 
     <build>
         <directory>target</directory>
-        <finalName>MainDB</finalName>
+        <finalName>test</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
@@ -56,7 +56,6 @@
                         <manifest>
                             <mainClass>com.hiroszymon.MainDB</mainClass>
                             <addClasspath>true</addClasspath>
-                            <classpathPrefix>lib/</classpathPrefix>
                             <useUniqueVersions>true</useUniqueVersions>
                         </manifest>
                     </archive>
@@ -72,7 +71,7 @@
                         </goals>
                         <configuration>
                             <excludeScope>system</excludeScope>
-                            <outputDirectory>${project.build.directory}/lib</outputDirectory>
+                            <outputDirectory>${project.build.directory}</outputDirectory>
                         </configuration>
                     </execution>
                 </executions>
