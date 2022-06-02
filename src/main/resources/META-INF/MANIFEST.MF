@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: com.hiroszymon.MainDB
+Class-Path: lib/postgresql-42.3.4.jar lib/checker-qual-3.5.0.jar
+
